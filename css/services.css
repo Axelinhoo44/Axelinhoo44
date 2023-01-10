@@ -1,0 +1,344 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 3.5rem;
+}
+
+.hero{
+  min-height: 140vh;
+  max-width: 100%;
+  background-image: url(../images/portfolio-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+
+}
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-weight: bold;
+}
+span{
+  color: #CD3700;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+
+}
+nav ul li a:hover{
+  color: #CD3700;
+  transition: .4s;
+}
+.btn{
+  background-color: #CD3700;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+}
+.btn:hover{
+  transform: scale(1.2);
+  }
+  button{
+    background-color: #CD3700;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+  }
+  button:hover{
+    background-color: transparent;
+    border: 2px solid #CD3700;
+    cursor: pointer;
+  }
+  .service{
+
+    max-width: 100%;
+    padding: 100px 0px;
+  }
+  .title h2{
+    color: white;
+    font-size: 75px;
+    max-width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+  }
+  .card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+  }
+  .card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #CD3700;
+  }
+  h5{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .pra p{
+    color: #FFF0F5;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
+  .card .button{
+    background-color: #CD3700;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+  }
+  .card .button:hover{
+    background-color: transparent;
+    border: 2px solid #CD3700;
+    cursor: pointer;
+  }
+  footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+  }
+  .social{
+    display: flex;
+  }
+  .social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CD3700;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+  }
+  .end{
+    position: absolute;
+    color: #CD3700;
+    bottom: 35px;
+    font-size: 14px;
+  }
+  @media (max-width: 1270px){
+    nav{
+      padding: 18px 4%;
+      transition: .2s;
+    }
+  .logo{
+    padding: 8px;
+      }
+      }
+      @media (max-width: 980px){
+        .hero{
+          height: 85vh;
+
+        }
+        nav{
+          padding: 5px;
+          position: static;
+          top: 2%;
+          left: 0;
+          right: 0;
+          flex-direction: column;
+          background-color: #CDCDC1;
+          text-align: left;
+          transition: all .30s;
+        }
+        .service{
+
+          max-width: 100%;
+          padding: 120px 0px;
+        }
+        .title h2{
+          color: white;
+          font-size: 55px;
+          max-width: 100%;
+          margin: 30px auto;
+          text-align: center;
+        }
+        .box{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 100px;
+        }
+        .card{
+          height: 450px;
+          max-width: 100%;
+          padding: 40px 35px;
+          background: #191919;
+          border-radius: 20px;
+          margin: 20px;
+          position: relative;
+          overflow: hidden;
+          text-align: center;
+
+        }
+        .card i{
+          font-size: 28px;
+          display: block;
+          text-align: center;
+          margin: 20px 0px;
+          color: #CD3700;
+        }
+        h5{
+          color: white;
+          font-size: 18px;
+          margin-bottom: 12px;
+        }
+        .pra p{
+          color: #FFF0F5;
+          font-size: 14px;
+          line-height: 22px;
+          margin-bottom: 21px;
+        }
+        .card .button{
+          background-color: #CD3700;
+          color: white;
+          text-decoration: none;
+          border: 2px solid transparent;
+          font-weight: bold;
+          padding: 8px 19px;
+          border-radius: 30px;
+          transition: .4s;
+        }
+  }
+  @media (max-width: 768px){
+    .hero{
+      height: 255vh;
+
+    }
+    .service{
+
+      max-width: 100%;
+      padding: 40px 0px;
+    }
+    .title h2{
+      color: white;
+      font-size: 45px;
+      max-width: 90%;
+      margin: 15px auto;
+      text-align: center;
+    }
+    .box{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      min-height: 90px;
+    }
+    .card{
+      height: 370px;
+      max-width: 100%;
+      padding: 40px 35px;
+      background: #191919;
+      border-radius: 20px;
+      margin: 20px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+
+    }
+    .card i{
+      font-size: 32px;
+      display: block;
+      text-align: center;
+      margin: 20px 0px;
+      color: #CD3700;
+    }
+    h5{
+      color: white;
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+    .pra p{
+      color: #FFF0F5;
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 21px;
+    }
+    .card .button{
+      background-color: #CD3700;
+      color: white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 8px 19px;
+      border-radius: 30px;
+      transition: .4s;
+    }
+  }
